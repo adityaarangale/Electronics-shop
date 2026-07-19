@@ -1,3 +1,39 @@
 github hosted link
 
 https://adityaarangale.github.io/Electronics-shop/
+
+commands in terminal to push updated code
+git add .
+git commit -m "Describe your changes"
+git push
+
+process:
+git --version
+
+git init     
+        Initialized empty Git repository in C:/Users/Lenovo/OneDrive/Desktop/TY/WTL/Electronic_Shop/.git/
+
+dir
+        Directory: C:\Users\Lenovo\OneDrive\Desktop\TY\WTL\Electronic_Shop
+
+
+Mode                 LastWriteTime         Length Name                                                                                 
+----                 -------------         ------ ----                                                                                 
+-a----        19-07-2026  03.23 PM           3008 index.html                                                                           
+-a----        19-07-2026  02.03 PM              0 script.js                                                                            
+-a----        19-07-2026  02.45 PM              0 Style.css                                                                            
+
+git add .
+
+git commit -m "Initial website"
+
+git branch -M main
+
+git remote add origin https://github.com/adityaarangale/Electronics-shop.git // your github repo live link
+
+git push -u origin main
+
+
+[[[done]]]
+
+
