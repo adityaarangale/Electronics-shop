@@ -162,24 +162,29 @@
 
         <div class="col-lg-6">
 
-            <form>
+            <form id="contactForm" novalidate>
 
                 <div class="mb-3">
                     <label class="form-label">Full Name</label>
-                    <input type="text" class="form-control" placeholder="Enter your name">
+                    <input type="text" id="nameInput" class="form-control" placeholder="Enter your name">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Email Address</label>
-                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <input type="email" id="emailInput" class="form-control" placeholder="Enter your email">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Your Message</label>
-                    <textarea class="form-control" rows="5" placeholder="Type your message"></textarea>
+                    <textarea id="messageInput" class="form-control" rows="5" placeholder="Type your message"></textarea>
                 </div>
 
-                <button class="btn btn-primary">Send Message</button>
+                <button class="btn btn-primary" type="submit">Send Message</button>
+
+                <!-- JS shows this paragraph after successful submit -->
+                <p id="successMsg" style="display:none; color:green; margin-top:12px;">
+                    ✅ Message sent successfully! We will contact you soon.
+                </p>
 
             </form>
 
